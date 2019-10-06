@@ -1,0 +1,88 @@
+#navBar {
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+
+.title{
+    position: absolute;
+    height: 40px;
+    top: 35%;
+    left: 50%;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    /*left: 46%;*/
+    color: #f2f2f2;
+
+    font-family: sans-serif;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../imgs/sky3.jpg) no-repeat;
+    background-size: cover;
+    min-height:100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.search-btn {
+    color: #cc6600;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+}
