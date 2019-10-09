@@ -11,10 +11,12 @@
 <div class="title">
     <h1>Tyre Town</h1>
 </div>
+
 <!-- Navigation -->
 <ul id="navBar">
     <li><a href="index.php">Search</a></li>
     <li><a href="about.php">About us</a></li>
+    <li><a href="invoiceResult.php">Result</a></li>
 </ul>
 
 

@@ -20,9 +20,10 @@
 
 <!-- Navigation -->
 <div class="row">
-    <ul id="navBar">
+    <ul id="navBar" class="fixed-top">
         <li><a href="index.php">Search</a></li>
         <li><a href="about.php">About us</a></li>
+        <li><a href="invoiceResult.php">Result</a></li>
     </ul>
 </div>
 
