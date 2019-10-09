@@ -44,13 +44,12 @@ function displayTable(tableType) {
     if (lastPanel === 0) {
         lastPanel = x;
     } else {
+        if (lastPanel === x) {
+            return;
+        }
         lastPanel.style.display = "none";
         lastPanel = x;
     }
-
-
-
-
 }
 
 function hideTable(tableType) {
