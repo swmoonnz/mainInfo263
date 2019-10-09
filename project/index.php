@@ -7,7 +7,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <title>Awesome Search Box</title>
 </head>
-<body>
+<body class="background">
 <div class="title">
     <h1>Tyre Town</h1>
 </div>

@@ -47,8 +47,8 @@
 
     <br/>
 
-    <div>
-        <button class="customerButton btn btn-warning col-3" id="customer">Customer</button>
+    <div class="text-center">
+        <button class="customerButton btn btn-warning col-10 col-md-3" id="customer">Customer</button>
     </div>
     <div class="results" id="customerInfo">
         <?php require_once('./request/search_request2.php');
@@ -56,36 +56,36 @@
         fetchCustomerInfo($query); ?>
     </div>
     <br/>
-
-    <div class="row">
-        <button class="vehicleButton btn btn-primary col-3 test" id="vehicle">Vehicle</button>
-        <button class="invoiceButton btn btn-success col-3 test" id="invoice">Invoice</button>
-        <button class="garageButton btn btn-info col-3 test" id="garage">Garage</button>
-        <button class="alignmentButton btn btn-danger col-3 test" id="alignment">Alignment</button>
+    <div class="row justify-content-center">
+        <button class="vehicleButton btn btn-primary col-10 col-sm-3 botbuts" id="vehicle">Vehicle</button>
+        <button class="invoiceButton btn btn-success col-10 col-sm-3 botbuts" id="invoice">Invoice</button>
+        <button class="garageButton btn btn-info col-10 col-sm-3 botbuts" id="garage">Garage</button>
+        <button class="alignmentButton btn btn-danger col-10 col-sm-3 botbuts" id="alignment">Alignment</button>
     </div>
+
     <br/>
 
     <div class="row">
         <div id="updatablePanel" class="col-lg-12">
-            <div class="results" id="vehicleInfo" style="display:none;">
+            <div class="results lesser" id="vehicleInfo" style="display:none;">
                 <?php require_once('./request/vehicle_request.php');
                 require_once('./php/fetchVehicleInfo.php');
                 fetchVehicleInfo($query);?>
             </div>
 
-            <div class="results" id="invoiceInfo" style="display:none;">
+            <div class="results lesser" id="invoiceInfo" style="display:none;">
                 <?php require_once('./request/search_request.php');
                 require_once('./php/fetchInvoiceInfo.php');
                 fetchInvoiceInfo($query);?>
             </div>
 
-            <div class="results" id="garageInfo" style="display:none;">
+            <div class="results lesser" id="garageInfo" style="display:none;">
                 <?php require_once('./request/search_request3.php');
                 require_once('./php/fetchGarageInfo.php');
                 fetchGarageInfo($query);?>
             </div>
 
-            <div class="results" id="alignmentInfo" style="display:none;">
+            <div class="results lesser" id="alignmentInfo" style="display:none;">
                 <?php require_once('./request/search_request4.php');
                 require_once('./php/fetchAlignment.php');
                 fetchAlignmentInfo($query);?>
@@ -93,32 +93,10 @@
         </div>
     </div>
 
-    <br/>
-
-    <br/>
-
-    <br/>
+    <!-- Footer which is fixed to the bottom of the screen -->
+    <div class="footer fixed-bottom">TyreTown 2019, Dev Group D</div>
 
 </div>
-    <br/>
-
-    <?php
-//    require_once('./request/search_request2.php');
-//    require_once('./php/fetchCustomerInfo.php');
-//    require_once('./request/search_request.php');
-//    require_once('./php/fetchInvoiceInfo.php');
-//    fetchInvoiceInfo($query);
-//    require_once('./request/search_request3.php');
-//    require_once('./php/fetchGarageInfo.php');
-//    require_once('./request/search_request4.php');
-//    require_once('./php/fetchAlignment.php');
-    ?>
-
-
-    <br/>
-    <br/>
-
-    <div id="footer" class="footer fixed-bottom">TyreTown 2018, Dev Group D</div>
 
     <script src="scripts/NodeList.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -135,4 +113,4 @@
             crossorigin="anonymous">
     </script>
     <script src="scripts/scripts.js"></script>
-    </body>
+</body>

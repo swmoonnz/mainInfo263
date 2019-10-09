@@ -1,19 +1,14 @@
 
-
-    /*<style>*/
-/*.background {*/
-/*    !*background-color: deepskyblue;*!*/
-/*    background-image: url(tyretownimage.jpg) no-repeat;*/
-/*    min-height:100%;*/
-/*    background-attachment: fixed;*/
-/*    background-size: cover;*/
-/*    -moz-background-size: cover;*/
-/*}*/
 .sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
+
+#customer {
+
+}
+
 .collapsible {
     background-color: #cc6600;
     color: white;
@@ -40,7 +35,6 @@
     overflow: hidden;
     transition: max-height 0.4s ease-out;
     border-radius: 30px;
-
 }
 .collapsible:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
@@ -56,13 +50,21 @@
 
 }
 
-.footer{
-    width: 100%;
-    background-color: grey;
-    color: #e84118;
-    text-align: center;
-
+.lesser {
+    margin-bottom: 50px;
 }
 
-/*</style>*/
+.footer {
+    width: 100%;
+    background-color:black;
+    color: yellow;
+    text-align: center;
+}
+
+/*@media (min-width: 320px) and (max-width: 480px) {*/
+/*    .botbuts {*/
+/*        text-align:center;*/
+/*    }*/
+
+/*}*/
 
