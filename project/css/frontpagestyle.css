@@ -6,7 +6,7 @@
 
 }
 
-body {
+.background {
     background: url(../imgs/sky3.jpg) no-repeat;
     min-height:100%;
     background-attachment: fixed;
@@ -58,9 +58,17 @@ body {
         height: auto;
     }
 
+    .background {
+        background: url(../imgs/sky3.jpg) no-repeat;
+        min-height:100%;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: -310px 30px;
+    }
+
     .search-box {
         position: absolute;
-        top: 50%;
+        top: 35%;
         left: 50%;
         background: black;
         height: 60px;

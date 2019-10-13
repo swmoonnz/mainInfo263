@@ -15,11 +15,9 @@
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-    <title>Awesome Search Box</title>
+    <title>Tyre Town Invoice Search</title>
 </head>
 <body class="background">
-
-
 
 <!-- Navigation -->
 <div class="row">
