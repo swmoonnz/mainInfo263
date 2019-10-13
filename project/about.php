@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/aboutAppearance.css">
+    <link rel="stylesheet" href="css/constants.css">
 
 </head>
 <body class="background">
@@ -50,9 +51,10 @@
             <h2 id="howWorks" class="header text-center text-capitalize align-self-center">How this website works</h2>
         </div>
         <div class="col-12 col-lg-12 text-center align-self-center">
-            <p id="howWorksPara">Here at Tyre Town we do the best wheel alignments in New Zealand! <br />
-                Protect your tyre investment; misaligned wheels will cause your tyres to wear excessively and irregularly.
-                Having correctly aligned wheels is also essential for safe handling and braking; it can even help to reduce driver fatigue.
+            <p id="howWorksPara">This is Tyre Town's very own invoice search website! <br />
+                If you have ever been a customer with us you can simply type in your invoice number
+                into the search bar at the search screen and press the search button which will take you
+                to a results screen where you can view the details of your service!
             </p>
         </div>
     </div>
@@ -60,7 +62,7 @@
 
 
     <!-- Footer which is fixed to the bottom of the screen -->
-    <div class="footer fixed-bottom">TyreTown 2019, Dev Group D</div>
+    <div class="footer fixed-bottom">TyreTown 2019, Group 5</div>
 </div>
 
 <br/>

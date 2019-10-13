@@ -1,0 +1,46 @@
+/*Style for invoice result page */
+
+body {
+    background: url(../imgs/tyretownimage.jpg) no-repeat;
+    min-height:100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+/*.search-txt{*/
+/*    border-radius: 10px;*/
+/*    border: 1px solid black;*/
+/*}*/
+
+.results {
+    width: 100%;
+    padding : 50px;
+    text-align: center;
+    background-color: #2f3640;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #cc6600;
+    top:60px;
+}
+
+#customerInfo {
+    width: 100%;
+    padding : 50px 0;
+    text-align: center;
+    background-color: #2f3640;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #cc6600;
+}
+
+.customerButton{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#header {
+    position: relative;
+    top:20px;
+
+}

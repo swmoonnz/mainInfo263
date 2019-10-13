@@ -1,0 +1,34 @@
+/*Style that appears in all pages */
+
+#navBar {
+    width:100%;
+    height: 55px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size:20px;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+.footer {
+    width: 100%;
+    background-color:black;
+    color: #bf8040;
+    text-align: center;
+}

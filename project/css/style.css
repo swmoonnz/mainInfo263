@@ -1,71 +1,6 @@
-#navBar {
-    width:100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size:20px;
-}
-
-li a:hover {
-    background-color: white;
-}
-
 .float-mid{
     padding: 20px;
     text-align: center;
-}
-
-.search-txt{
-    border-radius: 10px;
-    border: 1px solid black;
-}
-
-.results{
-    width: 100%;
-    padding : 50px 0;
-    text-align: center;
-    background-color: #2f3640;
-    margin-top: 20px;
-    border-radius: 10px;
-    border: 1px solid #cc6600;
-}
-
-.customerButton{
-    text-align: center;
-    margin: 0 auto;
-}
-
-body {
-    padding-top: 54px;
-    font-family: sans-serif;
-    background: url(../imgs/tyretownimage.jpg) no-repeat;
-    min-height:100%;
-    background-attachment: fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-
-}
-
-header{
-    text-align: center;
-    font-weight: bold;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-size: larger;
-    text-decoration: underline darkgrey;
 }
 
 /* Responsive table */
@@ -208,17 +143,6 @@ table tr {
     table td:after{
         padding-bottom: 10px;
     }
-
-    /*.formheader{*/
-    /*    padding-top: 100px;*/
-
-    /*}*/
-
-    /*.noHeight{*/
-    /*    padding-top: 0px;*/
-    /*    padding: 0px;*/
-    /*    border-bottom: None;*/
-    /*}*/
 
     .background{
         background-color: lightgrey;

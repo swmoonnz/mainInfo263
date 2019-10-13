@@ -1,39 +1,7 @@
-/*<style>*/
+/*style for the about page*/
 
 .background {
-    background-color:yellow;
-}
-
-#navBar {
-    width:100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size:20px;
-}
-
-li a:hover {
-    background-color: white;
-}
-
-.footer {
-    width: 100%;
-    background-color:black;
-    color: yellow;
-    text-align: center;
+    background-color: yellow;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -52,6 +20,7 @@ li a:hover {
         margin: 0 auto;
         position: relative;
         top: 20px;
+        margin-top: 20px;
     }
 
     #aboutUs {
@@ -103,10 +72,10 @@ li a:hover {
         position: relative;
         top: 60px;
     }
+
 }
 
 @media (min-width: 1200px) {
-    
 
     #aboutPara {
         background-color:white;
@@ -137,7 +106,6 @@ li a:hover {
         position: relative;
         top: 60px;
     }
-
 
 }
 

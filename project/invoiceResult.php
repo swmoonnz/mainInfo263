@@ -1,6 +1,5 @@
-<!-- This is your main page -->
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
+<!--Invoice result page-->
+
 <head>
     <meta charset="utf-8">
     <!--    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
@@ -14,7 +13,8 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/interactiveStyle.css">
+    <link rel="stylesheet" href="css/invoiceResultStyle.css">
+    <link rel="stylesheet" href="css/constants.css">
 
     <!-- error handling function -->
     <script src="scripts/errorHandler.js"></script>
@@ -32,18 +32,18 @@
 <div class="container">
 
     <div class="col-lg-12 ">
-        <h2 class="mt-5 text-center">Tyre Town Invoice Search3</h2>
+        <h2 class="mt-5 text-center" id="header">Tyre Town Invoice Search</h2>
     </div>
 
     <!--    BELOW IS SEARCH BOX-->
-    <form method="post" action="invoiceResult.php">
-        <div class="search-box float-mid">
-            <input type="text" class="search-txt" name="input" size="25" id="receiptID"
-                   placeholder="Enter Invoice Number">
-            <button type="submit" name="submitButton" value="test2" class="search-btn"><i class="fas fa-search"></i>
-            </button>
-        </div>
-    </form>
+<!--    <form method="post" action="invoiceResult.php">-->
+<!--        <div class="search-box float-mid">-->
+<!--            <input type="text" class="search-txt" name="input" size="25" id="receiptID"-->
+<!--                   placeholder="Enter Invoice Number">-->
+<!--            <button type="submit" name="submitButton" value="test2" class="search-btn"><i class="fas fa-search"></i>-->
+<!--            </button>-->
+<!--        </div>-->
+<!--    </form>-->
 
     <br/>
 
@@ -67,25 +67,25 @@
 
     <div class="row">
         <div id="updatablePanel" class="col-lg-12">
-            <div class="results lesser" id="vehicleInfo" style="display:none;">
+            <div class="results " id="vehicleInfo" style="display:none;">
                 <?php require_once('./request/vehicle_request.php');
                 require_once('./php/fetchVehicleInfo.php');
                 fetchVehicleInfo($query);?>
             </div>
 
-            <div class="results lesser" id="invoiceInfo" style="display:none;">
+            <div class="results " id="invoiceInfo" style="display:none;">
                 <?php require_once('./request/search_request.php');
                 require_once('./php/fetchInvoiceInfo.php');
                 fetchInvoiceInfo($query);?>
             </div>
 
-            <div class="results lesser" id="garageInfo" style="display:none;">
+            <div class="results " id="garageInfo" style="display:none;">
                 <?php require_once('./request/search_request3.php');
                 require_once('./php/fetchGarageInfo.php');
                 fetchGarageInfo($query);?>
             </div>
 
-            <div class="results lesser" id="alignmentInfo" style="display:none;">
+            <div class="results " id="alignmentInfo" style="display:none;">
                 <?php require_once('./request/search_request4.php');
                 require_once('./php/fetchAlignment.php');
                 fetchAlignmentInfo($query);?>
@@ -93,8 +93,10 @@
         </div>
     </div>
 
+    <br/>
+
     <!-- Footer which is fixed to the bottom of the screen -->
-    <div class="footer fixed-bottom">TyreTown 2019, Dev Group D</div>
+    <div class="footer fixed-bottom">TyreTown 2019, Group 5</div>
 
 </div>
 
