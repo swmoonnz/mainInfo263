@@ -1,7 +1,7 @@
 <?php
 function fetchInvoiceInfo($query) {
     if (!empty($_POST['input'])){
-        if ($row = mysqli_fetch_array($query)) ?>
+        if (($row = mysqli_fetch_array($query)) && (sizeof($row) !=0)) {?>
             <table>
             <thead>
             <th>Tax Invoice Number</th>
@@ -34,5 +34,20 @@ function fetchInvoiceInfo($query) {
             </tr>
             </table>
     <?php }
+        else { ?>
+            <table>
+                <thead>
+                <th>
+                    <span class="errorMsg";>No Search Result</span>
+                </th>
+                </thead>
+                <tr>
+                    <td><span><i>There is no Invoice for </i></span>
+                        <span><?php echo strtoupper($_POST['input'])?></span>
+                    </td>
+                </tr>
+            </table>
+        <?php }
+    }
 }
 ?>

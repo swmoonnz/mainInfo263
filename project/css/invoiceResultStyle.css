@@ -8,10 +8,6 @@ body {
     -moz-background-size: cover;
 }
 
-/*.search-txt{*/
-/*    border-radius: 10px;*/
-/*    border: 1px solid black;*/
-/*}*/
 
 .results {
     width: 100%;
@@ -34,9 +30,41 @@ body {
     border: 1px solid #cc6600;
 }
 
+.search-btn {
+    color: #bf8040;
+    width: 40px;
+    height: 40px;
+    left: 2px;
+    position: relative;
+    border-radius: 50%;
+    background: #2f3640;
+    border: 1px solid #2f3640;
+}
+
+.search-txt {
+    border: none;
+    background: #2f3640;
+    outline: none;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 50px;
+    width: 400px;
+    border-radius: 10px;
+}
+
 .customerButton{
     text-align: center;
     margin: 0 auto;
+}
+
+.errorMsg{
+   color: red;
+}
+
+.errorInvoice{
+    color: white;
 }
 
 #header {
@@ -44,3 +72,4 @@ body {
     top:20px;
 
 }
+

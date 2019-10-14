@@ -25,8 +25,8 @@
 <!-- Navigation -->
 <ul id="navBar" class="fixed-top">
     <li><a href="index.php" >Search</a></li>
-    <li><a href="about.php">About us</a></li>
     <li><a href="invoiceResult.php">Result</a></li>
+    <li><a href="about.php">About us</a></li>
 </ul>
 
 <div class="container">
@@ -35,15 +35,17 @@
         <h2 class="mt-5 text-center" id="header">Tyre Town Invoice Search</h2>
     </div>
 
-    <!--    BELOW IS SEARCH BOX-->
-<!--    <form method="post" action="invoiceResult.php">-->
-<!--        <div class="search-box float-mid">-->
-<!--            <input type="text" class="search-txt" name="input" size="25" id="receiptID"-->
-<!--                   placeholder="Enter Invoice Number">-->
-<!--            <button type="submit" name="submitButton" value="test2" class="search-btn"><i class="fas fa-search"></i>-->
-<!--            </button>-->
-<!--        </div>-->
-<!--    </form>-->
+<!--        BELOW IS SEARCH BOX-->
+    <div class="row justify-content-center">
+    <form method="post" action="invoiceResult.php">
+        <div class="float-mid">
+            <input type="text" class="search-txt" name="input" size="25" id="receiptID"
+                   maxlength="7" placeholder="Enter Invoice Number">
+            <button type="submit" name="submitButton" value="test2" class="search-btn"><i class="fas fa-search"></i>
+            </button>
+        </div>
+    </form>
+    </div>
 
     <br/>
 

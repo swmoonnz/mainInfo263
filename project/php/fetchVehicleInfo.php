@@ -1,7 +1,7 @@
 <?php
 function fetchVehicleInfo($query) {
     if (!empty($_POST['input'])){
-        if ($row = mysqli_fetch_array($query)) ?>
+        if (($row = mysqli_fetch_array($query)) && (sizeof($row)!=0)) { ?>
             <table>
                 <thead>
                 <th>Vehicle Registration</th>
@@ -23,5 +23,20 @@ function fetchVehicleInfo($query) {
                 </tr>
             </table>
     <?php }
+        else { ?>
+            <table>
+                <thead>
+                <th>
+                    <span class="errorMsg";>No Search Result</span>
+                </th>
+                </thead>
+                    <tr>
+                        <td><span><i>There is no vehicle data for invoice </i></span>
+                            <span><strong><?php echo strtoupper($_POST['input'])?></strong></span>
+                        </td>
+                    </tr>
+            </table>
+        <?php }
+    }
 }
 ?>

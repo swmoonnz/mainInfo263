@@ -6,7 +6,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #2f3640;
 }
 
 li {
@@ -15,7 +15,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color:  #6a7175;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -28,7 +28,7 @@ li a:hover {
 
 .footer {
     width: 100%;
-    background-color:black;
+    background-color: transparent;
     color: #bf8040;
     text-align: center;
 }

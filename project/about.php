@@ -23,8 +23,8 @@
 <div class="row">
     <ul id="navBar" class="fixed-top">
         <li><a href="index.php">Search</a></li>
-        <li><a href="about.php">About us</a></li>
         <li><a href="invoiceResult.php">Result</a></li>
+        <li><a href="about.php">About us</a></li>
     </ul>
 </div>
 
@@ -37,9 +37,13 @@
             <h2 id="aboutUs" class="text-center text-capitalize">About Us</h2>
         </div>
         <div class="col-12 col-lg-12 text-center align-self-center">
-            <p id="aboutPara">Here at Tyre Town we do the best wheel alignments in New Zealand! <br />
+            <p id="aboutPara">
+                <br/>
+                Here at Tyre Town we do the best wheel alignments in New Zealand! <br />
                 Protect your tyre investment; misaligned wheels will cause your tyres to wear excessively and irregularly.
                 Having correctly aligned wheels is also essential for safe handling and braking; it can even help to reduce driver fatigue.
+                <br/>
+                <br/>
             </p>
         </div>
     </div>
@@ -51,10 +55,14 @@
             <h2 id="howWorks" class="header text-center text-capitalize align-self-center">How this website works</h2>
         </div>
         <div class="col-12 col-lg-12 text-center align-self-center">
-            <p id="howWorksPara">This is Tyre Town's very own invoice search website! <br />
+            <p id="howWorksPara">
+                <br/>
+                This is Tyre Town's very own invoice search website! <br />
                 If you have ever been a customer with us you can simply type in your invoice number
                 into the search bar at the search screen and press the search button which will take you
-                to a results screen where you can view the details of your service!
+                    to a results screen where you can view the details of your service!
+                <br/>
+                <br/>
             </p>
         </div>
     </div>

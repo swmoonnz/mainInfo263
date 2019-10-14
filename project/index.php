@@ -23,8 +23,8 @@
 <div class="row">
     <ul id="navBar" class="fixed-top">
         <li><a href="index.php">Search</a></li>
-        <li><a href="about.php">About us</a></li>
         <li><a href="invoiceResult.php">Result</a></li>
+        <li><a href="about.php">About us</a></li>
     </ul>
 </div>
 
@@ -38,7 +38,8 @@
         <!-- Search bar-->
         <form method="post" action="invoiceResult.php">
             <div class="search-box">
-                <input type="text" name="input" id="receiptID" class="search-txt" placeholder="Enter Invoice Number"/>
+                <input type="text" name="input" id="receiptID" class="search-txt"
+                       maxlength="7" placeholder="Enter Invoice Number"/>
                 <button type="submit" name="submitButton" class="search-btn" >
                     <i class="fas fa-search"></i>
                 </button>
