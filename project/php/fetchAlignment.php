@@ -297,7 +297,7 @@ function fetchAlignmentInfo($query) {
             </tbody>
         </table>
     <?php } else { ?>
-        <table>
+        <table id="checkError">
             <thead>
             <th>
                 <span class="errorMsg" ;>No Search Result</span>
