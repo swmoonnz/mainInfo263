@@ -13,11 +13,10 @@
     <link rel="stylesheet" href="css/invoiceResultStyle.css">
     <link rel="stylesheet" href="css/constants.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="static/styles/fontawesome/css/fontawesome-all.css">
+<!--    <link rel="stylesheet" href="static/styles/fontawesome/css/fontawesome-all.css">-->
 
     <!-- error handling function -->
     <script src="scripts/errorHandler.js"></script>
-<!--    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>-->
     <script defer src="https://kit.fontawesome.com/df286d8985.js" crossorigin="anonymous"></script>
     <!-- PHP files that are used to fetch Invoice -->
     <?php

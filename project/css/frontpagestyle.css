@@ -3,7 +3,6 @@
 .title {
     position: relative;
     bottom: 50px;
-
 }
 
 .background {
@@ -50,6 +49,7 @@
     transition: 0.4s;
     line-height: 35px;
     width: 425px;
+    border-radius: 15px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -102,6 +102,7 @@
         transition: 0.4s;
         line-height: 35px;
         width: 285px;
+        border-radius: 15px;
     }
 
 
