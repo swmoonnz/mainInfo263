@@ -71,6 +71,9 @@
         font-size:20px;
         position: relative;
         top: 60px;
+        color: #bf8040;
+        border-radius: 10px;
+        border: 1px solid #cc6600;
     }
 
     #aboutUs {
@@ -85,9 +88,6 @@
         margin: 20px;
         position: relative;
         top: 60px;
-        color: #bf8040;
-        border-radius: 10px;
-        border: 1px solid #cc6600;
     }
 
 }

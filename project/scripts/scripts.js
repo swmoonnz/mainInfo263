@@ -1,10 +1,12 @@
 // Keep your scripts in here
 var lastPanel = 0;
 
+// Event listener when the customer button is clicked on
 $("#customer").click(function() {
     customerTable();
 })
 
+// Function to either display or hide customer information
 function customerTable() {
     var x = document.getElementById("customerInfo");
     if (x.style.display === "none") {
@@ -14,6 +16,7 @@ function customerTable() {
     }
 }
 
+// Event listeners for the group of buttons that share the same information container
 $("#vehicle").click(function() {
     displayTable("vehicle");
 })
@@ -32,6 +35,7 @@ $("#alignment").click(function() {
     displayTable("alignment");
 })
 
+// Function used by event listeners above to hide or display information
 function displayTable(tableType) {
     var x = document.getElementById(tableType + "Info");
 
@@ -52,11 +56,9 @@ function displayTable(tableType) {
     }
 }
 
-function hideTable(tableType) {
-    var x = document.getElementById(tableType + "Info");
-    x.style.display = "none";
-}
+// ** Code below here are all for dynamic styling of the Alignment table. **
 
+//upon clicking the alignment button it will calculate whether the alignments of a vehicle are within or out of range.
 function test_passed(table_result, lower_end, upper_end = false) {
     if (upper_end === false) {
         return (lower_end === table_result)

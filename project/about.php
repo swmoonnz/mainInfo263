@@ -15,22 +15,19 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/aboutAppearance.css">
     <link rel="stylesheet" href="css/constants.css">
-
 </head>
-<body class="background">
 
+<body class="background">
 <!-- Navigation -->
 <div class="row">
     <ul id="navBar" class="fixed-top">
         <li><a href="index.php">Search</a></li>
         <li><a href="invoiceResult.php">Result</a></li>
-        <li><a href="about.php">About us</a></li>
+        <li><a href="about.php">About</a></li>
     </ul>
 </div>
 
 <div class="container">
-
-
     <div class="row">
         <!-- Contains Header for about page paragraph-->
         <div class="col-12 col-lg-12">
@@ -40,8 +37,14 @@
             <p id="aboutPara">
                 <br/>
                 Here at Tyre Town we do the best wheel alignments in New Zealand! <br />
-                Protect your tyre investment; misaligned wheels will cause your tyres to wear excessively and irregularly.
-                Having correctly aligned wheels is also essential for safe handling and braking; it can even help to reduce driver fatigue.
+                This site has been brought to you by Adrian, Matt and Sang.
+                We have redesigned the website to give users an easier access to customer information, and
+                to give users a friendlier experience while they are looking up invoice details and
+                alignment information at work. While we believe in clean and good code and always expanding
+                our knowledge, we also believe having correctly aligned wheels is
+                essential for safe handling and braking; it can help to reduce driver fatigue and
+                make you a better programmer.
+<!--                Protect your tyre investment; misaligned wheels will cause your tyres to wear excessively and irregularly.-->
                 <br/>
                 <br/>
             </p>
@@ -58,16 +61,14 @@
             <p id="howWorksPara">
                 <br/>
                 This is Tyre Town's very own invoice search website! <br />
-                If you have ever been a customer with us you can simply type in your invoice number
-                into the search bar at the search screen and press the search button which will take you
-                    to a results screen where you can view the details of your service!
+                Employees can now have quick and easy access by simply typing in a customer's invoice number
+                into the search bar at the homepage or result screen. You can view the details of the customer's
+                details in a way that's easy to find the information you are looking for.
                 <br/>
                 <br/>
             </p>
         </div>
     </div>
-
-
 
     <!-- Footer which is fixed to the bottom of the screen -->
     <div class="footer fixed-bottom">TyreTown 2019, Group 5</div>
@@ -89,4 +90,6 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous">
 </script>
+
 </body>
+</html>

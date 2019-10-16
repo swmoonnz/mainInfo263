@@ -59,6 +59,9 @@ body {
     margin: 0 auto;
 }
 
+/*.customerButton:hover*/
+/*    {background-color: red}*/
+
 .errorMsg{
    color: red;
 }
@@ -70,6 +73,5 @@ body {
 #header {
     position: relative;
     top:20px;
-
 }
 

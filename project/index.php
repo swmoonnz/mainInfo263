@@ -3,33 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-
+    <!-- Our stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/constants.css">
     <link rel="stylesheet" href="css/frontpagestyle.css">
-
+    <!-- Font Awesome for icons  -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
     <title>Tyre Town Invoice Search</title>
 </head>
-<body class="background">
 
+<body class="background">
 <!-- Navigation -->
 <div class="row">
     <ul id="navBar" class="fixed-top">
         <li><a href="index.php">Search</a></li>
         <li><a href="invoiceResult.php">Result</a></li>
-        <li><a href="about.php">About us</a></li>
+        <li><a href="about.php">About</a></li>
     </ul>
 </div>
-
+<!-- Container for the page logo and search bar -->
 <div class="container">
-
     <div class="row justify-content-center">
         <div class="title">
             <img src="imgs/logo.png" alt="Tyre Town Logo">
@@ -47,8 +45,6 @@
         </form>
     </div>
 </div>
-
-
 <!-- Footer which is fixed to the bottom of the screen -->
 <div class="footer fixed-bottom">TyreTown 2019, Group 5</div>
 
