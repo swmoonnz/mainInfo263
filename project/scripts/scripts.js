@@ -313,14 +313,18 @@ function get_max_steering_lock_results() {
 }
 
 $("#alignment").click(function() {
-    get_camber_results();
-    get_camber_cross_results();
-    get_toe_results();
-    get_toe_total();
-    get_gda_and_setback();
-    get_front_camber_results();
-    get_caster_results();
-    get_sai_results();
-    get_toe_cross_results();
-    get_max_steering_lock_results();
+    var check = document.getElementById("checkError");
+    if (!check) {
+        get_camber_results();
+        get_camber_cross_results();
+        get_toe_results();
+        get_toe_total();
+        get_gda_and_setback();
+        get_front_camber_results();
+        get_caster_results();
+        get_sai_results();
+        get_toe_cross_results();
+        get_max_steering_lock_results();
+    }
 });
+

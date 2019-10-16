@@ -59,6 +59,12 @@ body {
     margin: 0 auto;
 }
 
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
 .errorMsg{
    color: red;
 }

@@ -25,18 +25,7 @@ on owner.owner_id = vehicle.owner_id;
     if (!$result)
         die ($conn->error);
 
-    /*!for ($j = 0 ;$j < $result->num_rows ; ++$j){
-        $result->data_seek($j);
-        $row = $result->fetch_array(MYSQLI_ASSOC);
-        print_r($row);
-        $item1[] = new getdata($row['NAME'], $row['EMAIL'], $row['PHONE'], $row['VEHICLE REGISTRATION'],
-            $row['VEHICLE MODEL'], $row['VEHICLE MAKE'], $row['YEAR'], $row['BODY TYPE'], $row['CHASSIS NUMBER'], $row['CHASSIS NUMBER']);
-    }
-    $result->close();
 
-
-    $item1 = json_encode($item1);
-    return $item1;!*/
 if ($result -> num_rows > 0) {
     while ($row = $result->fetch_array(MYSQLI_ASSOC)){
         echo '<tr><td>' . $row['NAME'] . '</td><td>' . $row['EMAIL'] . '</td><td>' . $row['PHONE'] . '</td><td>' . $row['VEHICLE REGISTRATION'] .
@@ -49,24 +38,4 @@ if ($result -> num_rows > 0) {
 else {
     echo '0 result';
 }
-
-//function printItems($array)
-//{
-//    echo "<pre>";
-//    foreach ($array as $item1)
-//    {
-//        echo $item1->display() . "<br>";
-//    }
-//
-//
-//    echo "</pre>";
-//}
-//
-//printItems($item1);
-    //print_r($result);
-
-//    $decoded = json_encode($result);
-//    print_r($decoded);
-
-//}
 ?>

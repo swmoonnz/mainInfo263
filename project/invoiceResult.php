@@ -66,7 +66,7 @@
 
     <br/>
 
-    <div class="row justify-content-center">
+    <div class="position-sticky row justify-content-center">
         <button class="vehicleButton btn btn-primary col-10 col-sm-3 botbuts" id="vehicle">
             <i class="fas fa-car-side"></i> Vehicle</button>
         <button class="invoiceButton btn btn-success col-10 col-sm-3 botbuts" id="invoice">

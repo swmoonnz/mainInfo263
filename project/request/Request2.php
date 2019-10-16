@@ -1,7 +1,7 @@
 <?php
 
 require_once("./config/config.php");
-//require_once('./getdata.php');
+
 
 $conn = new mysqli($serverName, $username, $password, $dbName, $port);
 
