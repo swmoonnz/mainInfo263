@@ -42,14 +42,14 @@
     </div>
     <!--        BELOW IS SEARCH BOX-->
     <div class="row justify-content-center">
-    <form method="post" action="invoiceResult.php">
-        <div class="float-mid">
-            <input type="text" class="search-txt" name="input" size="25" id="receiptID"
-                   maxlength="7" placeholder="Enter Invoice Number">
-            <button type="submit" name="submitButton" value="test2" class="search-btn"><i class="fas fa-search"></i>
-            </button>
-        </div>
-    </form>
+        <form method="post" action="invoiceResult.php">
+            <div class="float-mid search-box">
+                <input type="text" class="search-txt" name="input" id="receiptID"
+                       maxlength="7" placeholder="Enter Invoice Number">
+                <button type="submit" name="submitButton" value="test2" class="search-btn"><i class="fas fa-search"></i>
+                </button>
+            </div>
+        </form>
     </div>
 
     <br/>

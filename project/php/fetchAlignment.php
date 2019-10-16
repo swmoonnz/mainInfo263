@@ -2,7 +2,7 @@
 function fetchAlignmentInfo($query) {
     if (!empty($_POST['input'])){
         if (($row = mysqli_fetch_array($query)) && (sizeof($row)!=0)) { ?>
-            <header>Back Axle</header>
+            <header class="backAxle">BACK AXLE</header>
             <table class="alignment">
             <thead>
             <th class="maxwidth-title">Camber</th>
@@ -85,7 +85,7 @@ function fetchAlignmentInfo($query) {
                 <td id="gda-actual" data-label="Actual"><?php echo $row['14'];?></td>
             </tbody>
         </table>
-        <header>Front Axle</header>
+        <header class="frontAxle">FRONT AXLE</header>
         <table class="alignment">
             <thead>
             <th class="maxwidth-title">Camber</th>

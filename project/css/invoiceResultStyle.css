@@ -30,6 +30,10 @@ body {
     border: 1px solid #cc6600;
 }
 
+.search-box {
+    top: 50px;
+}
+
 .search-btn {
     color: #bf8040;
     width: 40px;
@@ -51,12 +55,13 @@ body {
     transition: 0.4s;
     line-height: 50px;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 .customerButton{
     text-align: center;
     margin: 0 auto;
+    bottom: 30px;
 }
 
 .errorMsg{

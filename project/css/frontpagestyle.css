@@ -2,7 +2,7 @@
 
 .title {
     position: relative;
-    bottom: 50px;
+    bottom: 90px;
 }
 
 .background {
@@ -52,11 +52,16 @@
     border-radius: 15px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
 
-    img {
-        max-width: 100%;
-        height: auto;
+    .title {
+        position: relative;
+        bottom: 50px;
     }
 
     .background {
