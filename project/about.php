@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/constants.css">
 </head>
 
-<body class="background">
+<body class="background" title="background image of a car">
 <!-- Navigation -->
 <div class="row">
     <ul id="navBar" class="fixed-top">

@@ -28,7 +28,7 @@
         ?>
 </head>
 
-<body>
+<body title="background images of tyres">
 <!-- Navigation -->
 <ul id="navBar" class="fixed-top">
     <li><a href="index.php" >Search</a></li>

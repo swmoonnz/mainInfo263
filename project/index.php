@@ -17,7 +17,7 @@
     <title>Tyre Town Invoice Search</title>
 </head>
 
-<body class="background">
+<body class="background" title="Background image of a car">
 <!-- Navigation -->
 <div class="row">
     <ul id="navBar" class="fixed-top">
