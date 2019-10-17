@@ -18,10 +18,20 @@ function customerTable() {
 
 // Event listeners for the group of buttons that share the same information container
 $("#vehicle").click(function() {
+    var vehicleExists = document.getElementById("checkVehicleData");
+    if (!vehicleExists) {
+        alert("There is no data in this section");
+        return;
+    }
     displayTable("vehicle");
 });
 
 $("#invoice").click(function() {
+    var invoiceExists = document.getElementById("checkInvoiceData");
+    if (!invoiceExists) {
+        alert("There is no data in this section");
+        return;
+    }
     displayTable("invoice");
 });
 

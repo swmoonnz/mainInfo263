@@ -2,7 +2,7 @@
 function fetchVehicleInfo($query) {
     if (!empty($_POST['input'])){
         if (($row = mysqli_fetch_array($query)) && (sizeof($row)!=0)) { ?>
-            <table>
+            <table id="checkVehicleData">
                 <thead>
                 <th>Vehicle Registration</th>
                 <th>Vehicle Model</th>

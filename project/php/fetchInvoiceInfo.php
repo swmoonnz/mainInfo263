@@ -2,7 +2,7 @@
 function fetchInvoiceInfo($query) {
     if (!empty($_POST['input'])){
         if (($row = mysqli_fetch_array($query)) && (sizeof($row) !=0)) {?>
-            <table>
+            <table id="checkInvoiceData">
             <thead>
             <th>Tax Invoice Number</th>
             <th>Service Description</th>
