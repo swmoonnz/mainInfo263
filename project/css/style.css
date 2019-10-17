@@ -15,12 +15,28 @@ table {
     font-family: sans-serif;
 }
 
+/*The text for the values within each table*/
 table td{
     border-bottom: 2px solid darkgrey;
     padding-top: 10px;
     padding: 10px;
     text-align: center;
 }
+
+/*Style for the back axle title in the alignment result*/
+.backAxle {
+    color: white;
+    font-size: 30px;
+}
+
+/*Style for the front axle title in the alignment result*/
+.frontAxle {
+    color: white;
+    margin: 15px;
+    font-size: 30px;
+}
+
+/*The text for the categories within the table*/
 table th{
     border-bottom: 2px solid darkgrey;
     text-align: center;
@@ -28,7 +44,7 @@ table th{
     padding: 10px;
 }
 table tr {
-    padding: 10px;
+     padding: 10px;
 }
 
 .table-header{
@@ -41,6 +57,7 @@ table tr {
 
 .table-column-head{
     font-weight: bold;
+    color:white;
 }
 
 
@@ -89,7 +106,6 @@ table tr {
 .formheader{
     text-align: left;
     padding-top: 80px;
-
 
 }
 

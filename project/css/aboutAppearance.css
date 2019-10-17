@@ -50,48 +50,6 @@
 
 }
 
-@media (min-width: 481px) and (max-width: 900px) {
-
-    #aboutPara {
-        background-color:#2f3640;
-        width: 700px;
-        margin: 0 auto;
-        font-size:20px;
-        position: relative;
-        top: 60px;
-        color: #bf8040;
-        border-radius: 10px;
-        border: 1px solid #cc6600;
-    }
-
-    #howWorksPara {
-        background-color:#2f3640;
-        width: 700px;
-        margin: 0 auto;
-        font-size:20px;
-        position: relative;
-        top: 60px;
-        color: #bf8040;
-        border-radius: 10px;
-        border: 1px solid #cc6600;
-    }
-
-    #aboutUs {
-        font-size:50px;
-        margin: 20px;
-        position: relative;
-        top: 60px;
-    }
-
-    #howWorks {
-        font-size:50px;
-        margin: 20px;
-        position: relative;
-        top: 60px;
-    }
-
-}
-
 @media (min-width: 1200px) {
 
     #aboutPara {
@@ -114,6 +72,7 @@
         color: #bf8040;
         border-radius: 10px;
         border: 1px solid #cc6600;
+        margin-bottom: 60px;
     }
 
     #aboutUs {

@@ -327,4 +327,3 @@ $("#alignment").click(function() {
         get_max_steering_lock_results();
     }
 });
-
