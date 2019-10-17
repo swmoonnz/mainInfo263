@@ -1,4 +1,4 @@
-    // Keep your scripts in here
+// Keep your scripts in here
 var lastPanel = 0;  //Keeps track of the las panel that was opened.
 
 // Event listener when the customer button is clicked on
@@ -26,13 +26,29 @@ $("#invoice").click(function() {
 });
 
 $("#garage").click(function() {
-    displayTable("garage");
+    var check = document.getElementById("noGarageData");
+    var exists = document.getElementById("checkGarageData");
+
+    if (!exists) {
+        alert("There is no information in this section for this particular Invoice number");
+        return;
+    }
+    if (!check) {
+        displayTable("garage");
+    }
+
 });
 
 $("#alignment").click(function() {
+    var exists = document.getElementById("checkAlignmentData");
     var check = document.getElementById("checkError");
 
-    if ((!check) && ((lastPanel !== 0))) {
+    if (!exists) {
+        alert("There is no information in this section for this particular Invoice number");
+        return;
+    }
+
+    if (!check) {
         displayTable("alignment");
         get_camber_results();
         get_camber_cross_results();

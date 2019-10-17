@@ -2,7 +2,7 @@
 function fetchAlignmentInfo($query) {
     if (!empty($_POST['input'])){
         if (($row = mysqli_fetch_array($query)) && (sizeof($row)!=0)) { ?>
-            <header class="backAxle">BACK AXLE</header>
+            <header id="checkAlignmentData" class="backAxle">BACK AXLE</header>
             <table class="alignment">
             <thead>
             <th class="maxwidth-title category">Camber</th>

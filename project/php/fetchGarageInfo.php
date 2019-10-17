@@ -3,7 +3,7 @@ function fetchGarageInfo($query)
 {
     if (!empty($_POST['input'])) {
         if (($row = mysqli_fetch_array($query)) && (sizeof($row) != 0)) { ?>
-            <table>
+            <table id="checkGarageData">
                 <thead>
                 <th>Technician Name</th>
                 <th>Inspection Time/Date</th>
@@ -26,7 +26,7 @@ function fetchGarageInfo($query)
                 </tr>
             </table>
         <?php } else { ?>
-            <table>
+            <table id="noGarageData">
                 <thead>
                 <th>
                     <span class="errorMsg" ;>No Search Result</span>
