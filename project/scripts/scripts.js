@@ -1,12 +1,12 @@
-// Keep your scripts in here
-var lastPanel = 0;
+    // Keep your scripts in here
+var lastPanel = 0;  //Keeps track of the las panel that was opened.
 
 // Event listener when the customer button is clicked on
 $("#customer").click(function() {
     customerTable();
-})
+});
 
-// Function to either display or hide customer information
+// Displays and hides customer information when the button is pressed
 function customerTable() {
     var x = document.getElementById("customerInfo");
     if (x.style.display === "none") {
@@ -19,21 +19,33 @@ function customerTable() {
 // Event listeners for the group of buttons that share the same information container
 $("#vehicle").click(function() {
     displayTable("vehicle");
-})
+});
 
 $("#invoice").click(function() {
     displayTable("invoice");
-})
+});
 
 $("#garage").click(function() {
-    console.log("test");
     displayTable("garage");
-})
+});
 
 $("#alignment").click(function() {
-    console.log("test");
-    displayTable("alignment");
-})
+    var check = document.getElementById("checkError");
+
+    if ((!check) && ((lastPanel !== 0))) {
+        displayTable("alignment");
+        get_camber_results();
+        get_camber_cross_results();
+        get_toe_results();
+        get_toe_total();
+        get_gda_and_setback();
+        get_front_camber_results();
+        get_caster_results();
+        get_sai_results();
+        get_toe_cross_results();
+        get_max_steering_lock_results();
+    }
+});
 
 // Function used by event listeners above to hide or display information
 function displayTable(tableType) {
@@ -67,6 +79,7 @@ function test_passed(table_result, lower_end, upper_end = false) {
     }
 }
 
+//Sets the colour of an specific section of the table containing a value depending on whether the test was passed or not
 function set_background_color(table_value, lower_end, upper_end) {
     if (test_passed(table_value[0], lower_end, upper_end)) {
         $('#' + table_value[1]).css({'background-color' : 'green'});
@@ -75,6 +88,7 @@ function set_background_color(table_value, lower_end, upper_end) {
     }
 }
 
+//Removes extra characters present in the values displayed in the tables, leaving them ready to be compared.
 function remove_extra_characters(string) {
     string = string.replace("'", '');
     string = string.replace("mm", '');
@@ -83,6 +97,7 @@ function remove_extra_characters(string) {
     return string;
 }
 
+//Sets the colours in the table for the camber section.
 function get_camber_results() {
     var lower_end = -0.7;
     var upper_end = -0.1;
@@ -104,6 +119,7 @@ function get_camber_results() {
 }
 
 
+//Sets the colours in the table for the camber cross section.
 function get_camber_cross_results() {
     var lower_end = -0.3;
     var upper_end = 0.3;
@@ -136,6 +152,7 @@ function get_camber_cross_results() {
     set_background_color(sai_cross_actual, lower_end, upper_end);
 }
 
+//Sets the colours in the table for the caster section.
 function get_caster_results() {
     var lower_end = 2.05;
     var upper_end = 2.65;
@@ -156,6 +173,7 @@ function get_caster_results() {
     set_background_color(caster_right_actual, lower_end, upper_end);
 }
 
+//Sets the colours in the table for the front camber section.
 function get_front_camber_results() {
     var lower_end = -0.3;
     var upper_end = 0.3;
@@ -176,6 +194,7 @@ function get_front_camber_results() {
     set_background_color(fcamber_right_actual, lower_end, upper_end);
 }
 
+//Sets the colours in the table for the toe section.
 function get_toe_results() {
     var lower_end = 0.5;
     var upper_end = 2.5;
@@ -210,6 +229,7 @@ function get_toe_results() {
     set_background_color(ftoe_right_actual, lower_end2, upper_end2);
 }
 
+//Sets the colours in the table for the toe total section.
 function get_toe_total() {
     var lower_end = 1.0;
     var upper_end = 5.0;
@@ -224,6 +244,7 @@ function get_toe_total() {
     set_background_color(toe_total_actual, lower_end, upper_end);
 }
 
+//Sets the colours in the table for the geometrical driving axis section.
 function get_gda_and_setback() {
     var lower_end = 0;
 
@@ -244,6 +265,7 @@ function get_gda_and_setback() {
     set_background_color(setback_actual, lower_end);
 }
 
+//Sets the colours in the table for the SAI section.
 function get_sai_results() {
     var lower_end = 11.95;
     var upper_end = 12.85;
@@ -264,6 +286,7 @@ function get_sai_results() {
     set_background_color(sai_right_actual, lower_end, upper_end);
 }
 
+//Sets the colours in the table for the toe cross section.
 function get_toe_cross_results() {
     var lower_end = -1.0;
     var upper_end = 3.0;
@@ -278,6 +301,7 @@ function get_toe_cross_results() {
     set_background_color(ftoe_cross_actual, lower_end, upper_end);
 }
 
+//Sets the colours in the table for the max steering lock section.
 function get_max_steering_lock_results() {
     var lower_end = -42.3;
     var upper_end = -39.7;
@@ -311,19 +335,3 @@ function get_max_steering_lock_results() {
     set_background_color(msl_rs_right_before, lower_end2, upper_end2);
     set_background_color(msl_rs_right_actual, lower_end2, upper_end2);
 }
-
-$("#alignment").click(function() {
-    var check = document.getElementById("checkError");
-    if (!check) {
-        get_camber_results();
-        get_camber_cross_results();
-        get_toe_results();
-        get_toe_total();
-        get_gda_and_setback();
-        get_front_camber_results();
-        get_caster_results();
-        get_sai_results();
-        get_toe_cross_results();
-        get_max_steering_lock_results();
-    }
-});
