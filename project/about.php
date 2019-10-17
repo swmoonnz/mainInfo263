@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/aboutAppearance.css">
     <link rel="stylesheet" href="css/constants.css">
 </head>

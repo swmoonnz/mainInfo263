@@ -1,6 +1,10 @@
 /*Style for invoice result page */
 
-body {
+.header {
+    font-size: 40px;
+}
+
+.background {
     background: url(../imgs/tyretownimage.jpg) no-repeat;
     min-height:100%;
     background-attachment: fixed;
@@ -30,15 +34,12 @@ body {
     border: 1px solid #cc6600;
 }
 
-.search-box {
-    top: 50px;
-}
 
 .search-btn {
     color: #bf8040;
     width: 40px;
     height: 40px;
-    left: 2px;
+    right: 50px;
     position: relative;
     border-radius: 50%;
     background: #2f3640;
@@ -72,8 +73,47 @@ body {
     color: white;
 }
 
-#header {
+.header {
     position: relative;
-    top:20px;
+    top:10px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .header {
+        font-size: 25px;
+    }
+    .background {
+        background: url(../imgs/tyretownimage.jpg) no-repeat;
+        min-height:100%;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: -280px 30px;
+    }
+
+    .search-btn {
+        color: #bf8040;
+        width: 40px;
+        height: 40px;
+        left: 125px;
+        bottom: 48px;
+        position: relative;
+        border-radius: 50%;
+        background: #2f3640;
+        border: 1px solid #2f3640;
+    }
+
+    .search-txt {
+        border: none;
+        background: #2f3640;
+        outline: none;
+        padding: 0;
+        color: white;
+        font-size: 16px;
+        transition: 0.4s;
+        line-height: 50px;
+        width: 300px;
+        border-radius: 50px;
+    }
+
+}

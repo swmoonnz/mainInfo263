@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tableStyle.css">
     <link rel="stylesheet" href="css/invoiceResultStyle.css">
     <link rel="stylesheet" href="css/constants.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -28,7 +28,7 @@
         ?>
 </head>
 
-<body title="background images of tyres">
+<body class="background">
 <!-- Navigation -->
 <ul id="navBar" class="fixed-top">
     <li><a href="index.php" >Search</a></li>
@@ -38,7 +38,7 @@
 <!-- Main Container -->
 <div class="container">
     <div class="col-lg-12 ">
-        <h2 class="mt-5 text-center" id="header">Tyre Town Invoice Search</h2>
+        <h2 class="mt-5 text-center header">Tyre Town Invoice Search</h2>
     </div>
     <!--        BELOW IS SEARCH BOX-->
     <div class="row justify-content-center">

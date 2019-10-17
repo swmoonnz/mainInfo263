@@ -5,7 +5,7 @@ function fetchAlignmentInfo($query) {
             <header class="backAxle">BACK AXLE</header>
             <table class="alignment">
             <thead>
-            <th class="maxwidth-title">Camber</th>
+            <th class="maxwidth-title category">Camber</th>
             <th>&nbsp;</th>
             <th>Before</th>
             <th>Target</th>

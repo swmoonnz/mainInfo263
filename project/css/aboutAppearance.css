@@ -8,6 +8,44 @@
     -moz-background-size: cover;
 }
 
+#aboutPara {
+    background-color: #2f3640;
+    width: 600px;
+    margin: 0 auto
+    position: relative;
+    top: 60px;
+    color: #bf8040;
+    border-radius: 10px;
+    border: 1px solid #cc6600;
+}
+
+#howWorksPara {
+    background-color: #2f3640;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+    color: #bf8040;
+    border-radius: 10px;
+    border: 1px solid #cc6600;
+    margin-bottom: 60px;
+}
+
+#aboutUs {
+    font-size:55px;
+    margin: 20px;
+    position: relative;
+    top: 60px;
+}
+
+#howWorks {
+    font-size:40px;
+    margin: 25px;
+    position: relative;
+    top: 60px;
+}
+
+/*style for when the screen is mobile sized*/
 @media (min-width: 320px) and (max-width: 480px) {
 
     #aboutPara {
@@ -49,48 +87,3 @@
     }
 
 }
-
-@media (min-width: 1200px) {
-
-    #aboutPara {
-        background-color: #2f3640;
-        width: 600px;
-        margin: 0 auto;
-        position: relative;
-        top: 60px;
-        color: #bf8040;
-        border-radius: 10px;
-        border: 1px solid #cc6600;
-    }
-
-    #howWorksPara {
-        background-color: #2f3640;
-        width: 600px;
-        margin: 0 auto;
-        position: relative;
-        top: 60px;
-        color: #bf8040;
-        border-radius: 10px;
-        border: 1px solid #cc6600;
-        margin-bottom: 60px;
-    }
-
-    #aboutUs {
-        font-size:55px;
-        margin: 20px;
-        position: relative;
-        top: 60px;
-    }
-
-    #howWorks {
-        font-size:40px;
-        margin: 25px;
-        position: relative;
-        top: 60px;
-    }
-
-}
-
-
-
-/*</style>*/
