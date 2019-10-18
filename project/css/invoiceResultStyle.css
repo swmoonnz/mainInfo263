@@ -4,7 +4,7 @@
     font-size: 40px;
 }
 
-.background {
+.backgroundImg {
     background: url(../imgs/tyretownimage.jpg) no-repeat;
     min-height:100%;
     background-attachment: fixed;
@@ -65,30 +65,23 @@
     bottom: 30px;
 }
 
-.errorMsg{
-   color: red;
-}
-
-.errorInvoice{
-    color: white;
-}
-
 .header {
     position: relative;
     top:10px;
 }
 
+/*style for when the screen is mobile sized*/
 @media (min-width: 320px) and (max-width: 480px) {
 
     .header {
         font-size: 25px;
     }
-    .background {
+    .backgroundImg {
         background: url(../imgs/tyretownimage.jpg) no-repeat;
         min-height:100%;
         background-attachment: fixed;
         background-size: cover;
-        background-position: -280px 30px;
+        background-position: -250px 30px;
     }
 
     .search-btn {

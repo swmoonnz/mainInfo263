@@ -13,7 +13,7 @@ function fetchAlignmentInfo($query) {
             </thead>
             <tbody class="alignment-graph">
             <tr class="alignment-graph">
-            <td data-label="Camber" class="table-no-underline background noPad">&nbsp;</td>
+            <td data-label="Camber" class="table-no-underline type noPad">&nbsp;</td>
             <td class="table-column-head orientations">Left</td>
             <td id="camber_left_before" data-label="Before"><?php echo $row['1'];?></td>
         <td data-label="Target" class="table-no-underline target">-0°40'   +/-0°30'</td>
@@ -46,7 +46,7 @@ function fetchAlignmentInfo($query) {
             </thead>
             <tbody class="alignment-graph">
             <tr class="alignment-graph">
-                <td data-label="Toe"class="table-no-underline background">&nbsp;</td>
+                <td data-label="Toe"class="table-no-underline type">&nbsp;</td>
                 <td class="table-column-head orientations">Left</td>
                 <td id="toe_left_before" data-label="Before"><?php echo $row['7'];?></td>
                 <td data-label="Target" class="table-no-underline target">1.5mm +/-1.00</td>
@@ -78,7 +78,7 @@ function fetchAlignmentInfo($query) {
             </thead>
             <tbody class="alignment-graph">
             <tr class="alignment-graph">
-                <td data-label="Geometrical Driving Axis" class="table-no-underline noRightBorder background">&nbsp;</td>
+                <td data-label="Geometrical Driving Axis" class="table-no-underline noRightBorder type">&nbsp;</td>
                 <td class="table-column-head noRightBorder maxwidth-empty-second orientations noShow">&nbsp;</td>
                 <td id="gda-before" data-label="Before"><?php echo $row['13'];?></td>
                 <td data-label="Target" class="target">0°00'</td>
@@ -96,7 +96,7 @@ function fetchAlignmentInfo($query) {
             </thead>
             <tbody class="alignment-graph">
             <tr class="alignment-graph">
-                <td data-label="Camber" class="table-no-underline background">&nbsp;</td>
+                <td data-label="Camber" class="table-no-underline type">&nbsp;</td>
                 <td class="table-column-head orientations">Left</td>
                 <td id="fcamber-left-before" data-label="Before"><?php echo $row['15'];?></td>
                 <td data-label="Target" class="table-no-underline target">0°00' +/-0°30'</td>
@@ -128,7 +128,7 @@ function fetchAlignmentInfo($query) {
             </thead>
             <tbody class="alignment-graph">
             <tr class="alignment-graph">
-                <td data-label="Caster" class="table-no-underline background">&nbsp;</td>
+                <td data-label="Caster" class="table-no-underline type">&nbsp;</td>
                 <td class="table-column-head orientations">Left</td>
                 <td id="caster-left-before" data-label="Before"><?php echo $row['21'];?></td>
                 <td data-label="Target" class="table-no-underline target">2°35' +/-0°30'</td>
@@ -160,7 +160,7 @@ function fetchAlignmentInfo($query) {
             </thead>
             <tbody class="alignment-graph">
             <tr class="alignment-graph">
-                <td data-label="SAI" class="table-no-underline background">&nbsp;</td>
+                <td data-label="SAI" class="table-no-underline type">&nbsp;</td>
                 <td class="table-column-head orientations">Left</td>
                 <td id="sai-left-before" data-label="Before"><?php echo $row['27'];?></td>
                 <td data-label="Target" class="table-no-underline target">12°40' +/-0°45</td>
@@ -192,7 +192,7 @@ function fetchAlignmentInfo($query) {
             </thead>
             <tbody class="alignment-graph">
             <tr class="alignment-graph">
-                <td data-label="Track Differential Angle" class="table-no-underline background">&nbsp;</td>
+                <td data-label="Track Differential Angle" class="table-no-underline type">&nbsp;</td>
                 <td class="table-column-head orientations">Left</td>
                 <td data-label="Before"><?php echo $row['33'];?></td>
                 <td class="table-no-underline noShow target"></td>
@@ -217,7 +217,7 @@ function fetchAlignmentInfo($query) {
             </thead>
             <tbody class="alignment-graph">
             <tr class="alignment-graph">
-                <td data-label="Toe" class="table-no-underline background">&nbsp;</td>
+                <td data-label="Toe" class="table-no-underline type">&nbsp;</td>
                 <td class="table-column-head orientations">Left</td>
                 <td id="ftoe_left_before" data-label="Before"><?php echo $row['37'];?></td>
                 <td data-label="Target" class="table-no-underline target">0.5mm +/-1.0mm</td>
@@ -249,7 +249,7 @@ function fetchAlignmentInfo($query) {
             </thead>
             <tbody class="alignment-graph">
             <tr class="alignment-graph">
-                <td data-label="Setback" class="table-no-underline noRightBorder background">&nbsp;</td>
+                <td data-label="Setback" class="table-no-underline noRightBorder type">&nbsp;</td>
                 <td class="table-column-head noRightBorder maxwidth-empty-second noShow orientations">&nbsp;</td>
                 <td id="setback_before" data-label="Before"><?php echo $row['43'];?></td>
                 <td data-label="Target" class="target">0°00'</td>
@@ -266,7 +266,7 @@ function fetchAlignmentInfo($query) {
             </thead>
             <tbody class="alignment-graph">
             <tr class="alignment-graph">
-                <td data-label="Max Steering Lock" class="table-no-underline background">Left Steer</td>
+                <td data-label="Max Steering Lock" class="table-no-underline type">Left Steer</td>
                 <!--<td data-label="Left Steer" class="bigNoShow"></td>-->
                 <td class="table-column-head orientations">Left</td>
                 <td id="msl_ls_left_before" data-label="Before"><?php echo $row['45'];?></td>
@@ -281,7 +281,7 @@ function fetchAlignmentInfo($query) {
                 <td id="msl_ls_right_actual" data-label="Actual"><?php echo $row['48'];?></td>
             </tr>
             <tr class="alignment-graph">
-                <td class="table-no-underline background">Right Steer</td>
+                <td class="table-no-underline type">Right Steer</td>
                 <td class="table-column-head orientations">Left</td>
                 <td id="msl_rs_left_before" data-label="Before"><?php echo $row['49'];?></td>
                 <td data-label="Target" class="table-no-underline target noShow">-41°00' +/-1°30'</td>
@@ -304,7 +304,7 @@ function fetchAlignmentInfo($query) {
             </th>
             </thead>
             <tr>
-                <td><span><i>There is no alignment information for </i></span>
+                <td id="error"><span><i>There is no alignment information for </i></span>
                     <span><?php echo strtoupper($_POST['input']) ?></span>
                 </td>
             </tr>
@@ -312,5 +312,3 @@ function fetchAlignmentInfo($query) {
     <?php }
 }
 }
-
-

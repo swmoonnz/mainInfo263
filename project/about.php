@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>About Us</title>
+    <title>About Tyre Town</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/aboutAppearance.css">
+    <link rel="stylesheet" href="css/aboutUsStyle.css">
     <link rel="stylesheet" href="css/constants.css">
 </head>
 
@@ -20,7 +20,7 @@
 <!-- Navigation -->
 <div class="row">
     <ul id="navBar" class="fixed-top">
-        <li><a href="index.php">Search</a></li>
+        <li><a href="tyreTownHomePage.php">Search</a></li>
         <li><a href="invoiceResult.php">Result</a></li>
         <li><a href="about.php">About</a></li>
     </ul>
@@ -43,7 +43,6 @@
                 our knowledge, we also believe having correctly aligned wheels is
                 essential for safe handling and braking; it can help to reduce driver fatigue and
                 make you a better programmer.
-<!--                Protect your tyre investment; misaligned wheels will cause your tyres to wear excessively and irregularly.-->
                 <br/>
                 <br/>
             </p>
@@ -64,6 +63,22 @@
                 into the search bar at the homepage or result screen. You can view the details of the customer's
                 details in a way that's easy to find the information you are looking for.
                 <br/>
+                <br/>
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Contains Header for the alignment result key paragraph -->
+        <div class="col-12 col-lg-12">
+            <h2 id="alignmentKey" class="header text-center text-capitalize align-self-center">Alignment Result Key</h2>
+        </div>
+        <div class="col-12 col-lg-12 text-center align-self-center">
+            <p id="alignmentKeyPara">
+                <br/>
+                <span style="color:red"> Red </span> : the value doesn't meet the required target <br/>
+                <span style="color:green"> Green </span> : the value meets the required target <br/>
+                <span style="color:cornflowerblue"> Blue </span> : the header for the category <br/>
                 <br/>
             </p>
         </div>

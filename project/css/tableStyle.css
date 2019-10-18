@@ -76,7 +76,6 @@ table tr {
 
     table.alignment td {
         border-right: 2px solid darkgrey;
-
     }
 
     .maxwidth-empty-second{
@@ -108,7 +107,23 @@ table tr {
 
 }
 
+.errorMsg{
+    color: red;
+}
+
+.errorInvoice{
+    color: white;
+}
+
 @media screen and (max-width: 995px) {
+
+    .type {
+        background-color: cornflowerblue;
+    }
+
+    #error {
+        font-size: 10px;
+    }
 
     .bottomTD{
         border-bottom: none;
@@ -126,8 +141,6 @@ table tr {
         display: block; /*sets up for 1 element per line*/
         padding-top: 0px;
         padding-bottom: 0px;
-
-        /*margin-bottom: 15px;*/
     }
 
     table td { /*styling for each individual cell*/
@@ -160,10 +173,6 @@ table tr {
         padding-bottom: 10px;
     }
 
-    .background{
-        background-color: cornflowerblue;
-    }
-
     .noShow {
         display: None;
     }
@@ -173,6 +182,5 @@ table tr {
     table td:before {
         position: relative;
     }
-
 
 }

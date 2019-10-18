@@ -1,6 +1,6 @@
-/*Style for the index/search page */
+/*Style for the tyre town home page */
 
-.title {
+.titleImg {
     position: fixed;
     bottom: 200px;
 }
@@ -52,10 +52,15 @@
     border-radius: 15px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
+/*style for when the screen is mobile sized*/
 @media (min-width: 320px) and (max-width: 480px) {
 
-    .title {
+    .titleImg {
         position: relative;
         bottom: 50px;
     }

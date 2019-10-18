@@ -33,7 +33,7 @@ function fetchGarageInfo($query)
                 </th>
                 </thead>
                 <tr>
-                    <td><span><i>There is no garage information for </i></span>
+                    <td id="error"><span><i>There is no garage information for </i></span>
                         <span><?php echo strtoupper($_POST['input']) ?></span>
                     </td>
                 </tr>

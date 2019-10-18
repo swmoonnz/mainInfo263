@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Invoice Result</title>
+    <title>Tyre Town Result</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/invoiceResultStyle.css">
     <link rel="stylesheet" href="css/constants.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-<!--    <link rel="stylesheet" href="static/styles/fontawesome/css/fontawesome-all.css">-->
 
     <!-- error handling function -->
     <script src="scripts/errorHandler.js"></script>
@@ -28,10 +27,10 @@
         ?>
 </head>
 
-<body class="background">
+<body class="backgroundImg" title="Tyres background">
 <!-- Navigation -->
 <ul id="navBar" class="fixed-top">
-    <li><a href="index.php" >Search</a></li>
+    <li><a href="tyreTownHomePage.php" >Search</a></li>
     <li><a href="invoiceResult.php">Result</a></li>
     <li><a href="about.php">About</a></li>
 </ul>
@@ -42,7 +41,7 @@
     </div>
     <!--        BELOW IS SEARCH BOX-->
     <div class="row justify-content-center">
-        <form method="post" action="invoiceResult.php">
+        <form method="post" action="invoiceResult.php" autocomplete="off">
             <div class="float-mid search-box">
                 <input type="text" class="search-txt" name="input" id="receiptID"
                        maxlength="7" placeholder="Enter Invoice Number">

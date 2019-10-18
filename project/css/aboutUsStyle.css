@@ -1,0 +1,146 @@
+/*style for the about page*/
+
+.background {
+    background: url(../imgs/sky3.jpg) no-repeat;
+    min-height:100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+#aboutPara {
+    background-color: #2f3640;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+    color: #bf8040;
+    border-radius: 10px;
+    border: 1px solid #cc6600;
+}
+
+#howWorksPara {
+    background-color: #2f3640;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+    color: #bf8040;
+    border-radius: 10px;
+    border: 1px solid #cc6600;
+    margin-bottom: 60px;
+}
+
+#aboutUs {
+    font-size:55px;
+    margin: 20px;
+    position: relative;
+    top: 60px;
+}
+
+#howWorks {
+    font-size:40px;
+    margin: 25px;
+    position: relative;
+    top: 60px;
+}
+
+#alignmentKey {
+    font-size: 40px;
+    margin: 15px;
+    position: relative;
+    top: 10px;
+}
+
+#alignmentKeyPara {
+    background-color: #2f3640;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    color: #bf8040;
+    border-radius: 10px;
+    border: 1px solid #cc6600;
+    margin-bottom: 30px;
+}
+
+/*style for when the screen is mobile sized*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .background {
+        background: url(../imgs/sky3.jpg) no-repeat;
+        min-height:100%;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: -310px 30px;
+    }
+
+    #aboutPara {
+        background-color:#2f3640;
+        width: 300px;
+        margin: 0 auto;
+        position: relative;
+        top: 30px;
+        color: #bf8040;
+        border-radius: 10px;
+        border: 1px solid #cc6600;
+        font-size:12px;
+    }
+
+    #howWorksPara {
+        background-color:#2f3640;
+        width: 300px;
+        margin: 15px;
+        position: relative;
+        top: 20px;
+        color: #bf8040;
+        border-radius: 10px;
+        border: 1px solid #cc6600;
+        font-size: 12px;
+    }
+
+    #alignmentKeyPara {
+        background-color: #2f3640;
+        width: 300px;
+        margin: 0 auto;
+        position: relative;
+        top: 10px;
+        color: #bf8040;
+        border-radius: 10px;
+        border: 1px solid #cc6600;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+
+
+    #aboutUs {
+        font-size:30px;
+        margin: 25px;
+        position: relative;
+        top: 40px;
+        background-color: #bf8040;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+
+    #howWorks {
+        font-size: 25px;
+        margin: 20px;
+        position: relative;
+        top: 20px;
+        background-color: #bf8040;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+
+    #alignmentKey {
+        font-size: 25px;
+        margin: 15px;
+        position: relative;
+        top: 10px;
+        background-color: #bf8040;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+
+}

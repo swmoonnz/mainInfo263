@@ -1,6 +1,4 @@
-<!--/**
- *  Keep your requests in here.
- */-->
+
 <?php
 require_once("./config/config.php");
 //require_once('./getdata.php');

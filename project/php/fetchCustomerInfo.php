@@ -17,11 +17,11 @@ function fetchCustomerInfo($query) {
         <?php } else { ?>
             <table>
                 <thead>
-                <th>
+                <tr>
                     <span class="errorMsg";>Invoice Number "</span>
                     <span class="errorInvoice";><strong><?php echo $_POST['input'] ?></strong></span>
                     <span class="errorMsg";>" Did not return any Results</span>
-                </th>
+                </tr>
                 </thead>
                     <tr>
                         <td><i>Make sure you have the right invoice number</i></td>
