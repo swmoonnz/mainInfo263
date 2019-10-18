@@ -59,7 +59,7 @@
             Customer</button>
     </div>
     <div class="results" id="customerInfo">
-        <?php require_once('./request/search_request2.php');
+        <?php require_once('./request/owner_request.php');
         fetchCustomerInfo($query); ?>
     </div>
 
@@ -86,17 +86,17 @@
             </div>
 
             <div class="results " id="invoiceInfo" style="display:none;">
-                <?php require_once('./request/search_request.php');
+                <?php require_once('./request/invoice_request.php');
                 fetchInvoiceInfo($query);?>
             </div>
 
             <div class="results " id="garageInfo" style="display:none;">
-                <?php require_once('./request/search_request3.php');
+                <?php require_once('./request/garage_request.php');
                 fetchGarageInfo($query);?>
             </div>
 
             <div class="results " id="alignmentInfo" style="display:none;">
-                <?php require_once('./request/search_request4.php');
+                <?php require_once('./request/alignment_request.php');
                 fetchAlignmentInfo($query);?>
             </div>
         </div>
