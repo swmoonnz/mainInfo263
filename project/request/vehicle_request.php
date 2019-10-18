@@ -1,7 +1,7 @@
+<!--Queries for the vehicles information-->
 <?php
 
 require_once("./request/Connection.php");
-
 
 
 $query2 =  "SELECT vehicle_registration AS 'VEHICLE REGISTRATION', vehicle_model AS 'VEHICLE MODEL', vehicle_make AS 'VEHICLE MAKE',
@@ -13,8 +13,6 @@ $query2 =  "SELECT vehicle_registration AS 'VEHICLE REGISTRATION', vehicle_model
         on owner.owner_id = invoice.customer_id
         
             ";
-
-
 
 
 if (isset($_POST['submitButton'])){

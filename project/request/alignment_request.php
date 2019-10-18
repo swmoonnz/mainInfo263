@@ -1,3 +1,4 @@
+<!--Queries for the wheel alignment information-->
 <?php
 
 require_once("./request/Connection.php");

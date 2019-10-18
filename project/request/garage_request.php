@@ -1,3 +1,4 @@
+<!--Queries for the garage and technicians information-->
 <?php
 
 require_once("./request/Connection.php");

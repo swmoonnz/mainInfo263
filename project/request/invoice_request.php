@@ -1,3 +1,4 @@
+<!--Queries for an invoice's information-->
 <?php
 
 require_once("./request/Connection.php");

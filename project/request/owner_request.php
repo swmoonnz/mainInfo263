@@ -1,3 +1,4 @@
+<!--Queries for the customer's information-->
 <?php
 
 require_once("./request/Connection.php");
